@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiRestClient.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Request Type" />
+            <Picker x:Name="requestType">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>GET</x:String>
+                        <x:String>PUT</x:String>
+                        <x:String>POST</x:String>
+                        <x:String>HEAD</x:String>
+                        <x:String>DELETE</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Label Text="URL" />
+            <Entry x:Name="url" />
+
+            <Button
+                Text="Send"
+                Clicked="OnBtnClicked"
+                HorizontalOptions="Fill" />
+
+            <Label Text="Response" />
+            <Editor x:Name="responseEditor" AutoSize="TextChanges" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
