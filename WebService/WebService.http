@@ -1,0 +1,6 @@
+@WebService_HostAddress = http://0.0.0.0:5192
+
+GET {{WebService_HostAddress}}/test/
+Accept: application/json
+
+###

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiRestClient", "MauiRestClient\MauiRestClient.csproj", "{885058AA-100E-4B52-BF42-A31EE8F01233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{84D95E3A-5F1F-44B4-82A7-4126C45AF16D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{885058AA-100E-4B52-BF42-A31EE8F01233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{885058AA-100E-4B52-BF42-A31EE8F01233}.Release|Any CPU.Build.0 = Release|Any CPU
 		{885058AA-100E-4B52-BF42-A31EE8F01233}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{84D95E3A-5F1F-44B4-82A7-4126C45AF16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D95E3A-5F1F-44B4-82A7-4126C45AF16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D95E3A-5F1F-44B4-82A7-4126C45AF16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D95E3A-5F1F-44B4-82A7-4126C45AF16D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
